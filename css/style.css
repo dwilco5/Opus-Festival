@@ -255,21 +255,29 @@ textarea {
 }
 
 .dani-demo-nav a {
-  padding: 8px;
+  padding: 10px;
 }
 
 .dani-demo-nav a:not(:last-child) {
-  border-right: 1px solid red;
+  border-right: 1px solid white;
 }
 
 body {
   text-align: center;
   background-color: pink;
-  p {background-color: pink};
-  border: 3px solid green;
-  font-size: 20px;
-  p {font-size: 40px};
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif
+ 
 }
+
+p {font-size: 60px
+  color: solid white
+  font-family: Arial, Helvetica, sans-serif
+
+
+};
+p {color: white};
+p {font-family: Arial, Helvetica, sans-serif};
 
 .joseph-image-demo {
   max-width: 1000px;
