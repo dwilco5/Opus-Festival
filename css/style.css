@@ -244,4 +244,35 @@ textarea {
     page-break-after: avoid;
   }
 }
+.dani-demo-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.dani-demo-logo {
+  max-width: 125px;
+}
 
+.dani-demo-nav a {
+  padding: 8px;
+}
+
+.dani-demo-nav a:not(:last-child) {
+  border-right: 1px solid red;
+}
+
+body {
+  text-align: center;
+  background-color: pink;
+  p {background-color: pink};
+  border: 3px solid green;
+  font-size: 20px;
+  p {font-size: 40px};
+}
+
+.joseph-image-demo {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
